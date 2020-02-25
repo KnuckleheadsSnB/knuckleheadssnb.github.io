@@ -26,6 +26,10 @@ map_iframe_src: "https://www.openstreetmap.org/export/embed.html?bbox=-97.612382
 # Build settings
 markdown: kramdown
 theme: minima
+address:
+  line1: 401 FM 685
+  line2: Pflugerville, Texas
+  phone: (512) 251-6847
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
