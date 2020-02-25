@@ -1,0 +1,10 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "base";
+@import "minima";
+@import "minima_overrides";
+@import "section";
+@import "home";
+@import "contact";

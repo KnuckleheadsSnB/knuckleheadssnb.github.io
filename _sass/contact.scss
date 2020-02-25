@@ -1,0 +1,15 @@
+.contact-details {
+  display: flex;
+
+  iframe {
+    border: 1px solid #ccc;
+    flex-basis: 50%;
+  }
+
+  .details {
+    align-items: center;
+    display: flex;
+    flex-basis: 50%;
+    justify-content: center;
+  }
+}

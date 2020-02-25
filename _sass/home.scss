@@ -1,0 +1,29 @@
+.home {
+  background: url('/assets/images/home.jpg') no-repeat bottom center scroll;
+  color: #fff;
+  height: 95vh;
+  padding: 0;
+  text-shadow: 2px 2px #000;
+
+  .wrapper,
+  .home-content {
+    height: 100%;
+  }
+
+  .home-content {
+    align-items: center;
+    display: flex;
+  }
+
+  h2 {
+    flex-basis: 50%;
+  }
+
+  .logo {
+    flex-basis: 50%;
+
+    img {
+      width: 25vw;
+    }
+  }
+}
