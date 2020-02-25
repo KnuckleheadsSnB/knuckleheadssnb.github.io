@@ -1,15 +1,29 @@
 .contact-details {
   display: flex;
+  flex-wrap: wrap;
 
   iframe {
     border: 1px solid #ccc;
-    flex-basis: 50%;
+    flex-basis: 100%;
   }
 
   .details {
     align-items: center;
     display: flex;
-    flex-basis: 50%;
+    flex-basis: 100%;
     justify-content: center;
+  }
+
+  @media screen and (min-width: 600px) {
+    flex-wrap: nowrap;
+
+    .details {
+      order: 3;
+    }
+
+    iframe,
+    .details {
+      flex-basis: 50%;
+    }
   }
 }
