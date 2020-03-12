@@ -22,7 +22,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   on finding the coolest(and tastiest) things around and bringing them to you!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-map_iframe_src: "https://www.openstreetmap.org/export/embed.html?bbox=-97.61238276958467%2C30.4354696202496%2C-97.60896027088167%2C30.439225212360196&amp;layer=mapnik&amp;marker=30.437347633120563%2C-97.61067137354985"
+# To update the Map, go to https://www.openstreetmap.org/
+# Find the location by searching.
+# Click the "Share" button on the right side of the screen
+# Click the "Include Marker" checkbox
+# Adjust marker appropriately
+# Click the "HTML" button in the share panel to get an <iframe> snippet
+# Take the data held in the src attribute of the <iframe> tag and paste that here as the "map_iframe_src"
+map_iframe_src: "https://www.openstreetmap.org/export/embed.html?bbox=-97.61288702487947%2C30.438193826470894%2C-97.61081904172899%2C30.44000683834583&amp;layer=mapnik&amp;marker=30.43910093281755%2C-97.61185261420906"
 # Build settings
 markdown: kramdown
 theme: minima
