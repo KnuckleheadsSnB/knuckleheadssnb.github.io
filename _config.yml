@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Knuckleheads Smoke N Brew
 subtitle: Pflugerville's <b>premier</b> spot for tobacco, tobacco accessories, craft beer, one of a kind craft glass, craft creations and more!
-email: your-email@example.com
+# email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Knuckleheads is Pflugerville's PREMIER spot for Tobacco, tobacco accessories,
   craft beer, one of a kind craft glass, craft creations and more!! We pride ourselves
