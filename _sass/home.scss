@@ -1,9 +1,9 @@
 .home {
-  background: url('/assets/images/home.jpg') no-repeat bottom center scroll;
   color: #fff;
   height: 95vh;
   padding: 0;
   text-shadow: 2px 2px #000;
+  transition: background-image 1s ease-in-out;
 
   .wrapper,
   .home-content {

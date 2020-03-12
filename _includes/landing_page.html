@@ -1,4 +1,8 @@
-<div class="section home">
+<div
+  class="section home"
+  data-slideshow-images={{ site.slideshow_images | join: "," }}
+  style="background: url('/assets/images/home-slideshow/{{ site.slideshow_images | first }}') no-repeat center scroll"
+>
   <div class="wrapper">
     <div class="home-content">
       <div class="logo">
