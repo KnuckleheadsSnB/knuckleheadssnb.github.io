@@ -1,0 +1,32 @@
+.featured-beer-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.beer-list,
+.featured-beer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  dl,
+  li {
+    flex: 0 0 100%;
+
+    @media screen and (min-width: 600px) {
+      flex: 0 0 50%;
+    }
+
+    @media screen and (min-width: 900px) {
+      flex: 0 0 33%;
+    }
+
+    @media screen and (min-width: 1200px) {
+      flex: 0 0 25%;
+    }
+  }
+
+  dt {
+    font-weight: bolder;
+  }
+}

@@ -1,0 +1,25 @@
+<div id="featured-beers" class="section">
+  <div class="wrapper">
+    <h2>Full Beer List</h2>
+    <p>
+      <small><i>* indicates a Featured Beer</i></small>
+    </p>
+    <div class="beer-list">
+      {% for category in site.data.beer_list.categories %}
+        <dl>
+          <dt>{{ category.name }}</dt>
+          {% for beer in category.beers %}
+          {% assign finalChar = beer | slice: -1, 1 %}
+            {% if finalChar == '*' %}
+              <dd class="featured-beer">
+            {% else %}
+              <dd>
+            {% endif %}
+              {{ beer }}
+            </dd>
+          {% endfor %}
+        </dl>
+      {% endfor %}
+    </div>
+  </div>
+</div>

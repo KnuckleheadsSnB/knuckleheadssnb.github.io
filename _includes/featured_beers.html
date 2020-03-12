@@ -1,0 +1,19 @@
+<div id="featured-beers" class="section">
+  <div class="wrapper">
+    <h2>Featured Beers</h2>
+    <ul class="featured-beer-list">
+      {% for category in site.data.beer_list.categories %}
+        {% for beer in category.beers %}
+        {% assign finalChar = beer | slice: -1, 1 %}
+          {% if finalChar == '*' %}
+            {% assign beerNameLength = (beer | size) | minus: 1 %}
+            {% assign beerName = beer | slice: 0, beerNameLength %}
+            <li>{{ beerName }}</li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    </ul>
+
+    <a href="/beer_list">Full Beer List</a>
+  </div>
+</div>

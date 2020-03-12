@@ -1,0 +1,17 @@
+categories:
+  - name: IPA
+    beers:
+      - Brew Free or Die
+      - Pliney the Elder*
+  - name: Pilsner
+    beers:
+      - Prima Pils
+      - Lagunitas Brewing Night Pils
+  - name: Stout
+    beers:
+      - Guinness
+      - Dragon's Milk*
+  - name: Sour
+    beers:
+      - Raspberry Parfait
+      - Dark Swan*
