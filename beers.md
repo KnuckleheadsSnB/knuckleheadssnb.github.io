@@ -1,5 +1,5 @@
 ---
 layout: default
-path: beer_list
+path: beers
 ---
 {%- include beer_list.html -%}
