@@ -1,17 +1,177 @@
-categories:
-  - name: IPA
-    beers:
-      - Brew Free or Die
-      - Pliney the Elder*
-  - name: Pilsner
-    beers:
-      - Prima Pils
-      - Lagunitas Brewing Night Pils
-  - name: Stout
-    beers:
-      - Guinness
-      - Dragon's Milk*
-  - name: Sour
-    beers:
-      - Raspberry Parfait
-      - Dark Swan*
+all_beers:
+  - Abita Purple Haze
+  - Abita Strawberry Lager
+  - ABK Hell 12oz
+  - Alaskan IPA
+  - Alaskan Smash Galaxy
+  - Anchor Liberty Ale 12oz Bottle
+  - Anchor Steam 12oz Bottle
+  - Angry Orchard Crisp
+  - Babe Red Wine
+  - Ballas Point Sour Wench
+  - Ballast Point Sculpin IPA
+  - Beatbox Blue Razzberry
+  - Beatbox Fresh Watermelon
+  - Beatbox Fruit Punch
+  - Beatbox Pink Lemonade
+  - Blvd Bourbon Barrel Quad
+  - Blvd Brandy Land
+  - Blvd Love Child 10
+  - Blvd Space Camper
+  - Bol Limon y Sal
+  - Bud Ice
+  - Bud Light
+  - Bud Light
+  - Budweiser
+  - Busch
+  - Cigar CIty Guayabera Citra Pale 12oz Can
+  - Cigar City Jai Alai 12oz Can
+  - Community Mosaic
+  - Coors Light
+  - Corona Extra
+  - Corona Familiar
+  - Corona Hard Seltzer
+  - Coronita
+  - Deschutes Dissident 2019
+  - Deschutes Fresh Haze IPA
+  - Deschutes Fresh Squeezed IPA
+  - Dogfish Head 60 Minute IPA 12oz Bottle
+  - Dogfish Head 90 Minute IPA 12oz Bottle
+  - Dogfish Head Seaquench Ale 12oz Can
+  - Dogfish Head Super Eight Gose 12oz Can
+  - Dos Equis Special
+  - Dos Equis Special
+  - Dragon's Milk White Stout
+  - EG Wine Co. Bubbles
+  - EG Wine Co. Chardonnay
+  - EG wine Co. Red Wine
+  - EG Wine Co. Rose Wine
+  - Founders All Day IPA 12oz Bottle
+  - Founders Dirty Basturd 12oz Bottle
+  - Four Corners El Chingon
+  - Four Corners El Grito
+  - Full Sail Session Cerveza 11oz Bottle
+  - Full Sail Session EZ-IPA 11oz Bottle
+  - Full Sail Session Lager 11oz Bottle
+  - Full Sail Session Light 11oz Bottle
+  - Full Sail Session Mashup Variety Pack 12pk/11oz Bottles
+  - Guinness Extra Stout
+  - Heineken 24oz
+  - Hop's & Grain Pale Mosiac
+  - Hops & Grain Haze Country
+  - Icehouse
+  - Independant Austin Amber
+  - Independant High Boy Bluebonic Chronic Double IPA
+  - Independant Stash IPA
+  - Karbaugh Hopadillo IPA
+  - Karbaugh Love Street Kolsch Style Blonde
+  - Keystone Light
+  - Keystone Light
+  - Lagunitas 12th Of Never 19.2oz Can
+  - Lagunitas Hop Stoopid 12oz Bottle
+  - Lagunitas IPA 12oz Bottle
+  - Lagunitas Lil Sumpin 12oz Bottle
+  - Lagunitas Phase Change 16oz Can
+  - Lagunitas Sumpin Easy 19.2oz Can
+  - Leffe Blonde
+  - Lone Star
+  - Maui Brewing  Big Swell IPA 12oz Can
+  - Maui Brewing Pineapple Mana 12oz Can
+  - Michelob Ultra
+  - Mickeys
+  - Mike's Harder Black Cherry
+  - Mike's Harder Lemonade
+  - Miller High Life
+  - Miller Lite
+  - Modelo Chelada Mango Y Chile
+  - Modelo especial
+  - Modelo Especial
+  - Modelo Especial 12oz
+  - Natural Light
+  - Natural Light
+  - New Belgium Trippel Ale
+  - New Belgium Voodoo Ranger Imperial IPA
+  - Old English 800
+  - Pabst Blue Ribbon Hard Coffee
+  - Real Ale Axis IPA 12oz Bottle
+  - Real Ale Commissar 22oz Can
+  - Real Ale Devil's Backbone 12oz Can
+  - Real Ale El Camino 22oz Bottle
+  - Real ale Fireman's 4 12oz Can
+  - Real Ale Fresh Kicks Hazy IPA 12oz Bottle
+  - Real Ale Han's Pils 12oz Can
+  - Real Ale IPA Sampler 6pk/12oz Bottles
+  - Real Ale Moon Walk Brute IPA 12oz Bottle
+  - Real Ale Sampler 12pk/12oz Cans
+  - Revolver Blood & Honey
+  - Revolver Hop Device
+  - Rogue Dead Guy 12oz Can
+  - Rogue Just a Pinch
+  - Schlitz High Gravity
+  - Shacksbury Arlo
+  - Shacksbury Dry Cider
+  - Shacksbury Rose Cider
+  - Shiner Bock
+  - Shiner Weiss n Easy
+  - Sierra Nevada Hazy Little thing
+  - Sierra Nevada Hoppy Anniversary Ale
+  - Sierra Nevada Pale Ale
+  - Smirnoff Ice
+  - Smirnoff Screwdriver
+  - St Arnold Art Car IPA
+  - St Arnold Lawnmower
+  - St Arnold Original Dry Cider
+  - St Arnold Spring Bock
+  - Steel Reserve
+  - Steel Reserve Spiked Blue Razz
+  - Stella Artios
+  - Texas Beer Company Pitmaster Pilsner
+  - Thirsty Planet Buckethead IPA
+  - Thirsty Planet Thirsty Goat
+  - Truly Black Cherry Lemonade
+  - Truly Lemonade Mix Pack
+  - Truly Lemonade orignial
+  - Truly Mango Lemonade
+  - Truly Pineapple
+  - Truly Strawberry Lemonade
+  - Truly Watermelon Kiwi
+  - Twisted Tea Half & Half
+  - Twisted Tea Peach
+  - Victoria
+  - White Claw Black Cherry
+  - White Claw Natural Lime
+  - White Claw Rasberry
+  - White Claw Ruby Grapefruit
+  - White Claw Variety
+# categories:
+#   - name: IPA
+#     beers:
+#       - Brew Free or Die
+#       - Pliney the Elder*
+#   - name: Pilsner
+#     beers:
+#       - Prima Pils
+#       - Lagunitas Brewing Night Pils
+#   - name: Stout
+#     beers:
+#       - Guinness
+#       - Dragon's Milk*
+#   - name: Sour
+#     beers:
+#       - Raspberry Parfait
+#       - Dark Swan*
+# {% for category in site.data.beer_list.categories %}
+#   <dl>
+#     <dt>{{ category.name }}</dt>
+#     {% for beer in category.beers %}
+#     {% assign finalChar = beer | slice: -1, 1 %}
+#       {% if finalChar == '*' %}
+#         <dd class="featured-beer">
+#       {% else %}
+#         <dd>
+#       {% endif %}
+#         {{ beer }}
+#       </dd>
+#     {% endfor %}
+#   </dl>
+# {% endfor %}
