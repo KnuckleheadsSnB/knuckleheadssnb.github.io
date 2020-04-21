@@ -30,7 +30,7 @@ slideshow_images:
   - pipe-case1.jpg
 
 square_shop_url: "https://my-site-103007-104686.square.site"
-online_order_notice: "* For Pickup or Delivery within 5 miles"
+online_order_notice: "* For Pickup or Delivery within 10 miles"
 
 # To update the Map, go to https://www.openstreetmap.org/
 # Find the location by searching.
